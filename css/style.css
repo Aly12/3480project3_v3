@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  overflow: hidden;
+    background: linear-gradient(to bottom, hotpink, white);
+}
+
+p {
+  color: black ;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-family: 'Agency Fb', Agency Fb;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+ {
+  &:hover {
+    a {
+      transform: rotate(-45deg) scale(1.05);
+    }
+
+    i {
+      color: Lighten(#00ACED, 10%);
+    }
+  }
+
+  a {
+    bottom: -50px;
+    right: -60px;
+    transform: rotate(-65deg);
+  }
+
+  i {
+    bottom: 7px;
+    right: 7px;
+    color: white;
+  }
+}
+
+  a {
+    position: absolute;
+    background: white;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.30);
+    display: inline-block;
+    width: 10x;
+    height: 10px;
+    transform-origin: 50% 50%;
+    transition: .15s ease-in;
+  }
+
+  i {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+    transition: .15s ease-out;
+  }
+}
+
+{
+  &:hover {
+    a {
+      transform: rotate(45deg) scale(1.05);
+    }
+
+    i {
+      color: lighten(#E62117, 10%);
+    }
+  }
+
+  a {
+    bottom: -40px;
+    left: -75px;
+    transform: rotate(45deg);
+  }
+
+  i {
+    bottom: 7px;
+    left: 7px;
+    color: #E62117;
+  }
+}
